@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.color-secondary{
+	color: white!important;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -723,7 +727,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: white;
 }
 
 h4 {
@@ -770,7 +774,7 @@ h4 {
     background-color: #364577;
 }
 
-.bgc-atomic-tangerine {
+.bgc-atomic-tangerine { /*couleur background footer*/
     background-color: #F3976C;
 }
 
@@ -1045,4 +1049,15 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.text, .quote{
+	font-size: 2rem;
+}
+.quote{
+	font-style: italic;
+}
+.signature{
+	font-size: 1.5rem;
+	font-weight: lighter;
 }
