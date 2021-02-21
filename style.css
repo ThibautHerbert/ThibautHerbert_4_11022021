@@ -7,10 +7,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.color-secondary{
-	color: white!important;
-}
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -1052,6 +1048,10 @@ h4 {
     }
 }
 
+/*rajout pour amélioration SEO et accessibilité*/
+.color-secondary{
+	color: white!important;
+}
 .text, .quote{
 	font-size: 2rem;
 }
