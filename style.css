@@ -12684,7 +12684,7 @@ h4 {
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
-        text-align: center;
+        text-align: center;  
     }
 }
 
@@ -12701,4 +12701,9 @@ h4 {
 .signature{
 	font-size: 1.5rem;
 	font-weight: lighter;
+}
+.body--contact{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
 }
